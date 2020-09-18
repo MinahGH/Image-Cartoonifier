@@ -1,5 +1,6 @@
 # Image-Cartoonifier
 This project is about turning images into its cartoonized version. To be able to do this process to we need two main steps: detecting edges in these photos and then combine them with a smoothed version of the original image.
+
 Steps:
 1. First we used OpenCV library to read images cv2.imread() and also used for displaying
 them cv2.imshow().
@@ -18,4 +19,5 @@ more cartoonized effect.
 7. Last, we needed to combine the output of the bilateral filter and the pervious detected
 edges in one image to get the cartoonized image. We used cv2.bitwise_and() to combine
 them
+
 
